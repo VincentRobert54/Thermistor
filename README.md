@@ -16,4 +16,25 @@ The constructor of the implemented class receives, in order:
 - the reference temperature of the thermistor in Kelvin (298.15 by default)
 
 
+## Example
+`#include <Arduino.h>
+#include "thermistor.h"
+
+// Rref=10kohms, R0=15kohms, Beta=3950, default values for other parameters
+Thermistor th(10000, 15000, 3950);
+
+int analogPin = A0;
+
+void setup()
+{
+  Serial.begin(115200);
+}
+
+void loop()
+{
+  Serial.println(th.getTemperature(analogRead(analogPin), 'C'));
+
+  delay(5000);
+}
+`
 
