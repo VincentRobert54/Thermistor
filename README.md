@@ -5,7 +5,7 @@ This library allows extracting the temperature measured by a thermistor.
 
 A voltage divider with a fixed resistor R0 is constructed. The thermistor must be connected to Vcc and R0. The other terminal of R0 is connected to ground. The point between the two resistors is connected to an analog input of an Arduino, ESP32, or other equipment.
 
-![Connection diagram](https://github.com/VincentRobert54/Thermistor/connectionDiagram.png)
+![Connection diagram](https://github.com/VincentRobert54/Thermistor/blob/main/connectionDiagram.png?raw=true)
 
 The constructor of the implemented class receives, in order:
 - the value of the thermistor at its reference temperature (Rref)
