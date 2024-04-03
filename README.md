@@ -17,7 +17,8 @@ The constructor of the implemented class receives, in order:
 
 
 ## Example
-`#include <Arduino.h>
+```
+#include <Arduino.h>
 #include "thermistor.h"
 
 // Rref=10kohms, R0=15kohms, Beta=3950, default values for other parameters
@@ -32,9 +33,10 @@ void setup()
 
 void loop()
 {
+  // print temperature in Celsius
   Serial.println(th.getTemperature(analogRead(analogPin), 'C'));
 
   delay(5000);
 }
-`
+```
 
