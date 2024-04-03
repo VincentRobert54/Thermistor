@@ -1,0 +1,24 @@
+{
+    "name": "Thermistance",
+    "version": "1.0.0",
+    "description": "Librairie pour extraire la température d'une thermistance connectée via un pont diviseur de tension à un arduino, esp32 ou autre",
+    "keywords": "thermistance, temperature",
+    "repository":
+    {
+      "type": "git",
+      "url": "https://github.com/VincentRobert54/thermistance.git"
+    },
+    "authors":
+    [
+      {
+        "name": "Vincent ROBERT",
+        "email": "vincent.robert@cdfnancy.fr",
+        "url": ""
+      }
+    ],
+    "license": "Lycée Charles de Foucauld - Nancy",
+    "homepage": "https://www.cdfnancy.fr/",
+    
+    "frameworks": "*",
+    "platforms": "*"
+  }
