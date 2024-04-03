@@ -8,12 +8,12 @@ A voltage divider with a fixed resistor R0 is constructed. The thermistor must b
 ![Connection diagram](https://github.com/VincentRobert54/Thermistor/blob/main/connectionDiagram.png?raw=true)
 
 The constructor of the implemented class receives, in order:
-- Rref : the value of the thermistor at its reference temperature
-- R0 : the value of the fixed resistor associated with the thermistor on the voltage divider
-- Beta : the Beta value of the thermistor
-- samplingBitsNumber : the number of bits of analog input sampling (10 by default)
-- Vcc : the value of the supply voltage (5V by default)
-- T0 : the reference temperature of the thermistor in Kelvin (298.15 (25°C)  by default)
+- **Rref** : the value of the thermistor at its reference temperature
+- **R0** : the value of the fixed resistor associated with the thermistor on the voltage divider
+- **Beta** : the Beta value of the thermistor
+- **samplingBitsNumber** : the number of bits of analog input sampling (10 by default)
+- **Vcc** : the value of the supply voltage (5V by default)
+- **T0** : the reference temperature of the thermistor in Kelvin (298.15 (25°C)  by default)
 
 
 ## Example
